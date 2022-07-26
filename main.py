@@ -7,7 +7,7 @@ from skimage.io import imread
 # download the image
 img_url = 'https://upload.wikimedia.org/wikipedia/commons/7/70/Mount_Fuji_from_Lake_Yamanaka_1995-7-30.jpg'
 
-im = imread(img_url)
+im = imread(img_url))
 
 st.image(im, caption='image from wikimedia commons',
          use_column_width=True)
